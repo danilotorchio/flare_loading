@@ -8,7 +8,12 @@ environment:
   flutter: ">=1.7.8 <2.0.0"
 
 dependencies:
-  flare_flutter: ^3.0.0
+  flare_flutter:
+    git:
+      url: https://github.com/mbfakourii/Flare-Flutter.git
+      path: flare_flutter
+      ref: remove_hashValues
+
   flutter:
     sdk: flutter
 
